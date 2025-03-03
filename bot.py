@@ -15,7 +15,8 @@ ATHENA_API_URL = "https://ru.app.athenachat.ai/api"
 
 # Инициализация бота и диспетчера
 bot = Bot(token=TOKEN, parse_mode=ParseMode.HTML)
-dp = Dispatcher()
+from aiogram import Router
+dp = Router()
 
 # Логирование
 logging.basicConfig(level=logging.INFO)
