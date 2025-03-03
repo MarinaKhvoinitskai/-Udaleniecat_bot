@@ -9,7 +9,8 @@ from aiogram.filters import ChatMemberUpdatedFilter
 from aiogram.enums import ChatMemberStatus
 
 # Замените на ваш Telegram Bot API токен
-TOKEN = "ВАШ_ТОКЕН_БОТА"
+import os
+TOKEN = os.getenv("TOKEN")
 # URL API Афины (уточни в настройках Афины)
 ATHENA_API_URL = "https://ru.app.athenachat.ai/api"
 
