@@ -2,7 +2,7 @@ import logging
 import asyncio
 import requests
 from aiogram import Bot, Dispatcher, types
-from aiogram.types import ParseMode
+from aiogram.enums import ParseMode
 from aiogram.filters import CommandStart
 from aiogram.types import ChatMemberUpdated
 from aiogram.filters import ChatMemberUpdatedFilter
